@@ -1,0 +1,71 @@
+<html>
+<head>
+	<h1>Karate</h1>
+<nav>
+<ul id="navmenu">
+	<li class="navitem"> <a class="homeLink" href="home.html">Home</a> </li>
+	<li class="navitem"> <a class="aboutLink" href="about.html">About Karate</a> </li>
+	<li class="navitem"> <a class="photosLink" href="photos.html">Photo Gallery</a> </li>
+</ul>
+</nav>
+
+	<p class="paragraph">I have been doing karate for almost <i>five years now</i>. I am almost <u><span class="wrap-text">a black belt</span></u>. <b>If you love karate</b> or karate movies, you are in the right place.</p>
+
+<form>
+	<div id="response"> </div>
+</form>
+<link type="text/css" rel="stylesheet" href="main.css"/>
+<title>Blackbelt</title>
+<script>
+function banner(){ 
+var text = confirm("Did You Really Want to Click on My Banner?"); 
+return text; 
+}
+function answer(){
+var radio = document.getElementsByName("trivia");
+var selection = false;
+var message = ""; 
+for( var i = 0; i < radio.length; i++) {
+if(radio[i].value == "kcr" && radio[i].checked == true) { 
+selection = true;
+} //end if statement 
+} //end for loop
+if(selection == true) {
+message = message + "<b><p style='color:green'>Way to go!</p></b>"; 
+} else { 
+message = message + "<b><p style='color:red'>Try again my friend.</p></b>"; 
+}
+document.getElementById("response").innerHTML = message;
+
+} //end function answer
+</script>
+</head>
+<body id="background">
+<a href="http://www.blkdojos.com/" onclick="return banner()">
+<header class="header">Black Belt Excelence </header>
+</a>
+<ol>
+		<li class="listitem"> Karate is amazing</li>
+		<li class="listitem"> You look freaking cool</li>
+		<li class="listitem">People will never ever want to mess with you:)</li>
+	</ol>
+<img src="http://www.clipartkid.com/images/131/karate-kick-silhouette-clip-art-at-clker-com-vector-clip-art-online-QyS34x-clipart.png"/>
+	<img src="http://questmartialarts.us/questmedia/2012/04/black-belt-club.gif"/>
+	
+<div id="rightdiv" class="wrap-trivia">
+	<h2>Karate Trivia</h2>
+	<p class="paragraph">True or false: The first karate kid was released in theaters June 22, 1984.</p>
+	<form> 
+	<input type="radio" name="trivia" value="kcr">True<br>
+	<input type="radio" name="trivia" value="stl">False<br>
+	<input type="button" value="Submit Answer" id="button" onclick="answer()">
+	</form>	
+</div>
+<iframe width="560" height="315" controls autoplay 
+	src="https://www.youtube.com/embed/NgcTe-sFnxo" frameborder="0"allowfullscreen>
+</iframe>
+	<hr>
+	<center>Michaela Fluck <a href="www.blkdojos.com/">A good karate studio</a> </center>
+<footer class="footer"> We are a black belt school! </footer>
+</body>
+</html>

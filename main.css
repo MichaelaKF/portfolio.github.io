@@ -1,0 +1,136 @@
+p {
+	color:blue;
+	font-size:18px;
+}
+.listitem{
+	color:black;
+	font-size:20px;
+}
+.paragraph{
+	color:510C16;
+	font-size:20px;
+}
+#background{
+	background-color:grey;
+}
+#button{
+	width:130px;
+	height:50px;
+	color:white;
+	background-color:black;
+	border-radius:15px;
+}
+.header{
+	color:#cccccc;
+	font-size:20px;
+	height:36px;
+	width:35%;
+	border:2px solid black;
+	background-color:#390019;
+	margin-bottom: 5em;
+}
+.footer{
+	color:#cccccc;
+	font-size:20px;
+	height:36px;
+	width:35%;
+	border:2px solid black;
+	background-color:#390019;
+}
+.wrap-trivia{
+	height:300px;
+	width:250px;
+	border-radius:30px black;
+	padding: 5em;
+	float:right;
+
+}
+.wrap-text{
+	color:#cc0000;
+	font-size:23px;
+}
+#one{
+	height:150px;
+	width: 150px;
+	background-color:red;
+	display: inline-block;
+	position:relative;
+	top:900px;
+	z-index: 1;
+}
+#two{
+	height:150px;
+	width: 150px;
+	background-color:green;
+	display: inline-block;
+	position: fixed 
+	left:50%;
+	z-index: 2;
+
+}
+#three{
+	height:150px;
+	width: 150px;
+	background-color:blue;
+	display: inline-block;
+	position:absolute;
+}
+#body{
+	height:2048px;
+	position:relative;
+	top: 750px;
+}
+.navitem {
+	list-style-type:none;
+	display:inline;
+	padding-right:1.5em;
+}
+#navmenu {
+	width:1200px;
+	height:60px;
+	margin:auto;
+	background-color:black;
+	font-size:25px;
+
+}
+.homeLink:link{
+	color:white;
+}
+.homeLink:visited{
+	color:red;
+}
+.homeLink:hover{
+	color:grey;
+}
+.homeLink:active{
+	color:purple;
+}
+.aboutLink:link{
+	color:white;
+}
+.aboutLink:visited{
+	color:red;
+}
+.aboutLink:hover{
+	color:grey;
+}
+.aboutLink:active{
+	color:purple;
+}
+.photosLink:link{
+	color:white;
+}
+.photosLink:visited{
+	color:red;
+}
+.photosLink:hover{
+	color:grey;
+}
+.photosLink:active{
+	color:purple;
+}
+#rightdiv{
+	border:15px;
+	width:350px;
+	float:right;
+}
